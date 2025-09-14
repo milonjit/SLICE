@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>⚠️ Virus Alert!</title>
+  <style>
+    body {
+      background: black;
+      color: red;
+      font-family: monospace;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 2rem;
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      50% {opacity: 0;}
+    }
+    #reveal {
+      display: none;
+      margin-top: 40px;
+      font-size: 1.5rem;
+      color: lime;
+    }
+  </style>
+</head>
+<body>
+  <h1>⚠️ WARNING: Your device has been hacked! ⚠️</h1>
+  <p>Encrypting files... <span id="dots"></span></p>
